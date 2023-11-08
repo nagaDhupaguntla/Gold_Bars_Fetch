@@ -39,7 +39,6 @@
             <artifactId>testng</artifactId>
             <version>7.7.0</version>
         </dependency>
-
         <!-- more dependencies ... -->
     </dependencies>
 

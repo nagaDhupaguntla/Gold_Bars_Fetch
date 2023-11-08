@@ -22,7 +22,7 @@ public class TESTNGBASE {
      */
     public WebDriver init_driver(Properties prop) {
         String browser = prop.getProperty("browser");
-
+        LoggerUtil.info("Setting up the test environment");
         if (browser.equals("chrome")) {
             // Setup Chrome WebDriver using WebDriverManager
             WebDriverManager.chromedriver().setup();
